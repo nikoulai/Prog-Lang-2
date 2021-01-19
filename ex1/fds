@@ -1,0 +1,4 @@
+path l t = last $ aux l t
+  where
+    aux [] (T x xs) = [x]
+    aux l (T x xs) = x : aux (tail l) (xs!!head l)

@@ -1,0 +1,7 @@
+x := succ succ succ succ succ succ succ 0;
+result := false;
+while 0 < x do (
+result := x : result;
+x := pred x;
+)
+result := hd result

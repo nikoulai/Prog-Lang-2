@@ -1,0 +1,53 @@
+result := 0;
+for succ succ succ succ succ succ 0 do
+for succ succ succ succ succ succ succ 0 do
+result := succ result
+
+result := 0;
+result := succ succ succ succ succ succ succ succ result
+
+result := 0;
+for 2 do
+result := succ result
+
+x := succ succ succ succ succ succ succ 0;
+result := false;
+while 7 < x do (
+result := x;
+x := pred x
+)
+
+result := 0 < 5
+x := true;
+result := false;
+while x do (
+result := x;
+x :=false;
+)
+
+x := succ succ succ succ succ succ succ 0;
+result := false;
+while 0 < x do (
+result := true;
+x := pred x
+)
+
+x := succ succ succ succ succ succ succ 0;
+result := pred x
+
+
+  x := succ succ succ succ succ succ succ 0;
+  result := false;
+  while 0 < x do (
+  result := x : result;
+  result := tl result;
+  x := pred x
+  )
+
+x := succ succ succ succ succ succ succ 0;
+result := false;
+while 7 < x do (
+result := x;
+x := pred x
+)
+result := hd result
